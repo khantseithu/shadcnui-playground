@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
+import AccordionDemo from "@/components/AccordionDemo"
 
 export default function IndexPage() {
   return (
@@ -33,6 +34,9 @@ export default function IndexPage() {
         >
           GitHub
         </Link>
+      </div>
+      <div>
+        <AccordionDemo />
       </div>
     </section>
   )
